@@ -4,11 +4,17 @@ title: Portfolio
 
 {% include sections/introduction.html %}
 
+<header class="header"></header>
 <div class="container grid">
   <div class="left">
   </div>
   <div class="center">
-
+    {% include sections/home.html %}
+    {% include sections/portfolio.html %}
   </div>
   <div class="right"></div>
 </div>
+
+<footer class="footer">
+  {% include components/footerBtn.html %}
+</footer>

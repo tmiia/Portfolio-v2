@@ -1,0 +1,58 @@
+main{
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  section{
+    height: calc(100vh - (6.33vh * 2));
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .hi{
+      font-size: 4em;
+      font-family: $special-font;
+    }
+    .name{
+      font-size: 3em;
+      line-height: 0.8em;
+      strong{
+        font-weight: 600
+      }
+    }
+    .adj{
+      font-weight: 100;
+      font-style: italic;
+    }
+    .slogan{
+      font-size: 1.2em;
+    }
+    h2{
+      font-size: 2em;
+      font-family: $special-font;
+      font-weight: 700;
+      margin-bottom: 0.2em;
+    }
+    .bio{
+      width: 80%;
+      font-size: 1.1em;
+      font-weight: 400;
+      margin-bottom: 0.3em;
+    }
+    .cv{
+      width: fit-content;
+      font-weight: 100;
+      font-style: italic;
+      color: #000;
+      border-bottom: 1px dashed rgb(44, 44, 44);
+    }
+    .deconame{
+      position: relative;
+      width: fit-content;
+      #deco1{
+        position: absolute;
+        top: -20px;
+        right: -20px;
+      }
+    }
+  }
+}

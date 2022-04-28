@@ -1,0 +1,19 @@
+.portfolio{
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  .rea{
+    padding: 8em 0;
+    h2{
+      font-family: $special-font;
+      font-size: 3em;
+      font-weight: 600;
+    }
+  }
+  .imgMiniPortfolio{
+    max-width: 100%;
+    margin-bottom: 3em;
+    cursor: pointer;
+  }
+}
